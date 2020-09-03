@@ -25,7 +25,7 @@ module.exports = {
   // */1 * * * * Every minute. 
   // */5 * * * * * Every 5 seconds. 
   // */60 * * * * * Every 60 seconds. 
-  '*/10 * * * * ': async () =>
+  '*/1 * * * *': async () =>
   {
     strapi.log.info( "CRON " + new Date() );
     await strapi.plugins[ 'mobile-push-notification' ].services.notification.sendPendingNotification();
