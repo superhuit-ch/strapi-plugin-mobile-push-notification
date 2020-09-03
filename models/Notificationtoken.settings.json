@@ -28,9 +28,8 @@
       "type": "enumeration"
     },
     "user": {
-      "model": "user",
-      "via": "notificationtokens",
-      "plugin": "users-permissions"
+      "plugin": "users-permissions",
+      "model": "user"
     }
   }
 }
