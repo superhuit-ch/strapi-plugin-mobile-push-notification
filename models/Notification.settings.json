@@ -46,10 +46,8 @@
       "default": true
     },
     "users": {
-      "collection": "user",
-      "dominant": true,
-      "via": "notifications",
-      "plugin": "users-permissions"
+      "plugin": "users-permissions",
+      "collection": "user"
     },
     "data": {
       "type": "json",
